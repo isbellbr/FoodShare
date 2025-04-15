@@ -77,7 +77,6 @@ export default function Home() {
   return (
     <div className="app-container pb-16 md:pb-0">
       <Header onSearch={handleSearch} />
-      <LocationBar />
       <Filters 
         filters={filters} 
         setFilters={setFilters} 
